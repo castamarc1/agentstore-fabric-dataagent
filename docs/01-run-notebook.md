@@ -27,42 +27,27 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 
 ---
 
-### 2️⃣ Create a Notebook
+### 2️⃣ Import the Notebook
 
-1. Go to your **Fabric workspace**
-2. Click **+ New Item**
-3. Select **Notebook**
+1. Download the file **`fabric/contoso_sales_setup.ipynb`** from this repository to your computer
+2. In your **Fabric workspace**, click **+ New Item** → **Import** → **Notebook**
+3. Select the downloaded `contoso_sales_setup.ipynb` file and upload it
+4. Once imported, the notebook will appear in your workspace — **open it**
 
----
-
-### 3️⃣ Attach the Lakehouse
-
-1. In the notebook, look at the **left panel**
-2. Click **"Add Lakehouse"**
-3. Select **`contoso_sales`** from the list
-4. The Lakehouse is now connected and ready to use in your notebook code
+> 💡 **Alternative:** If you prefer, you can create a blank notebook and copy-paste the cell contents from `contoso_sales_setup.ipynb` manually.
 
 ---
 
-### 4️⃣ Import the Notebook Content
+### 3️⃣ Attach the Lakehouse to the Notebook
 
-You have two options:
-
-**Option A — Copy-paste cells:**
-
-1. Open the notebook you just created
-2. Open the file `fabric/contoso_sales_setup.ipynb` from this repository
-3. Copy-paste the cells from the setup notebook into your Fabric notebook
-
-**Option B — Direct import (if supported):**
-
-1. In your Fabric workspace, click **+ New Item** → **Import** → **Notebook**
-2. Upload the file `fabric/contoso_sales_setup.ipynb` from this repository
-3. Once imported, open the notebook and attach the `contoso_sales` Lakehouse (see Step 3)
+1. In the opened notebook, look at the **left panel** (Explorer)
+2. Click **"Add"** → **"Existing Lakehouse"**
+3. Select **`contoso_sales`** from the list and confirm
+4. You should now see the Lakehouse name in the left panel — this means the notebook will write data to it
 
 ---
 
-### 5️⃣ Run All
+### 4️⃣ Run All
 
 1. Click **"Run All"** in the notebook toolbar
 2. Wait **~1–2 minutes** for all cells to complete
@@ -70,7 +55,7 @@ You have two options:
 
 ---
 
-### 6️⃣ Verify
+### 5️⃣ Verify
 
 1. Go back to your **Fabric workspace**
 2. Open the **`contoso_sales`** Lakehouse

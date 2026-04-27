@@ -147,19 +147,6 @@ Once everything is set up, try these:
 | **Copilot Studio can't connect to Fabric** | Check that you have an F2+ capacity and a Microsoft 365 Copilot license |
 | **Teams agent not responding** | Allow a few minutes after publishing for the agent to become available in Teams |
 
----
-
-## 📋 Agent Store Entry
-
-See [`agent-store/catalogue-entry.md`](agent-store/catalogue-entry.md) for the complete Agent Store metadata and a 5-minute demo script.
-
-| Field | Value |
-|-------|-------|
-| **Name** | Contoso Sales Analytics Agent |
-| **Solution Type** | Low-code |
-| **Industry** | Cross-industry (Retail / Sales) |
-| **Department** | Sales & Analytics |
-| **Time to Replicate** | ~30 minutes |
 
 ---
 
