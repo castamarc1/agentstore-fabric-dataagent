@@ -24,7 +24,7 @@ Use this narrative to walk through the solution in a live demo or customer conve
 
 > *"Let's start with the data layer. Here's our Fabric Lakehouse — `contoso_sales` — with two tables: **products** and **sales_transactions**. This was populated by running a single notebook with sample data — 50 products and 500 transactions. No data engineering required."*
 
-- Open the **`Contoso Sales`** Lakehouse in the Fabric workspace
+- Open the **`ContosoSales`** Lakehouse in the Fabric workspace
 - Click into the **SQL analytics endpoint**
 - Show both tables and preview a few rows
 

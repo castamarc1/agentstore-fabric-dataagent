@@ -22,7 +22,7 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 1. Go to your **Fabric workspace**
 2. Click **+ New Item**
 3. Select **Lakehouse**
-4. Name it **`Contoso Sales`**
+4. Name it **`ContosoSales`**
 5. Click **Create**
 
 ---
@@ -42,7 +42,7 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 
 1. In the opened notebook, look at the **left panel** (Explorer)
 2. Click **"Add"** → **"Existing Lakehouse"**
-3. Select **`Contoso Sales`** from the list and confirm
+3. Select **`ContosoSales`** from the list and confirm
 4. You should now see the Lakehouse name in the left panel — this means the notebook will write data to it
 
 ---
@@ -58,7 +58,7 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 ### 5️⃣ Verify
 
 1. Go back to your **Fabric workspace**
-2. Open the **`Contoso Sales`** Lakehouse
+2. Open the **`ContosoSales`** Lakehouse
 3. Click on the **SQL analytics endpoint**
 4. Confirm you see these two tables:
    - ✅ **`Products`**

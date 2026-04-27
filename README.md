@@ -47,7 +47,7 @@ A business user simply opens **M365 Copilot** (in Teams or BizChat) and asks:
 ### Prerequisites
 
 - A **Microsoft Fabric workspace** with capacity (F2+ or trial) — [Create a workspace](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces) · [Start a free trial](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial)
-- **Data Agent (preview)** enabled in tenant settings — [Configure tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings)
+- **Data Agent** enabled in tenant settings — [Configure tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings)
 - A **Microsoft 365 Copilot** license — [M365 Copilot licensing](https://learn.microsoft.com/en-us/microsoft-365-copilot/microsoft-365-copilot-licensing)
 - **Copilot extensibility** enabled by your M365 admin — [Manage Copilot agents](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps)
 - **Member** or **Admin** role in the Fabric workspace

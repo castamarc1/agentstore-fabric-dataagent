@@ -30,7 +30,7 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 ### 2️⃣ Add Data Source
 
 1. In the Data Agent configuration, click **"Add data source"**
-2. Select your **`Contoso Sales`** Lakehouse
+2. Select your **`ContosoSales`** Lakehouse
 3. Select **both tables**:
    - ✅ **`Products`**
    - ✅ **`SalesTransactions`**
