@@ -4,7 +4,7 @@
 
 [![Solution Type](https://img.shields.io/badge/Solution-Low--Code-green)]()
 [![Industry](https://img.shields.io/badge/Industry-Cross--industry-blue)]()
-[![Time to Deploy](https://img.shields.io/badge/Time-~20%20min-orange)]()
+[![Time to Deploy](https://img.shields.io/badge/Time-~10%20min-orange)]()
 
 ---
 
