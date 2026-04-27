@@ -110,6 +110,8 @@ You now have a **complete conversational AI agent** that:
 
 ## 🏁 You're Done!
 
+> 💡 **Prefer a faster path?** Instead of building the Copilot Studio agent manually, you can import the pre-built solution `.zip` and just configure two environment variables. See the **[Import Guide](../copilot-studio/import-guide.md)**.
+
 You have successfully built the complete Contoso Sales Analytics Agent:
 
 | Component | What It Does |

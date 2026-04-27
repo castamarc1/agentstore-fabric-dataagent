@@ -60,7 +60,7 @@ A business user simply opens **Microsoft Teams** and asks:
 | **2** | [🤖 Create the Data Agent](docs/02-create-data-agent.md) | ~10 min | A Fabric Data Agent answering NLQ over your data |
 | **3** | [💬 Create the Copilot Studio Agent](docs/03-create-copilot-studio.md) | ~10 min | A conversational agent in Teams connected to the Data Agent |
 
-> **💡 Shortcut:** If a Copilot Studio solution .zip is available in [`copilot-studio/`](copilot-studio/), you can import it directly and skip the manual Copilot Studio setup. See the [import guide](copilot-studio/import-guide.md).
+> **💡 Shortcut:** A ready-to-import Copilot Studio solution is available in [`copilot-studio/`](copilot-studio/). Import the `.zip`, set two environment variables (Workspace ID + Data Agent ID), and you're done. See the [import guide](copilot-studio/import-guide.md).
 
 ---
 
@@ -77,8 +77,8 @@ agentstore-fabric-dataagent/
 │   ├── 03-create-copilot-studio.md        ← Guide: Copilot Studio agent
 │   └── images/                            ← Screenshots (add your own)
 ├── copilot-studio/
-│   ├── import-guide.md                    ← How to import the solution .zip
-│   └── (solution.zip)                     ← Exportable Copilot Studio solution
+│   ├── import-guide.md                    ← How to import & configure the solution
+│   └── ContosoDataAgent_1_0_0_13.zip      ← Copilot Studio solution (ready to import)
 └── agent-store/
     └── catalogue-entry.md                 ← Agent Store metadata & demo script
 ```
