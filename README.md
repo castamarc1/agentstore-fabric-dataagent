@@ -152,12 +152,6 @@ Once everything is set up, try these in M365 Copilot:
 
 ---
 
-## 🤝 Contributing
-
-Found a bug or want to improve the guides? Open an issue or submit a PR. Screenshots for the `docs/images/` folder are especially welcome!
-
----
-
 ## 📄 License
 
 This project is provided as-is for internal use. See your organization's policies for redistribution.
