@@ -25,6 +25,8 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 4. Name it **`ContosoSales`**
 5. Click **Create**
 
+![Create Lakehouse](images/create-lakehouse.png)
+
 ---
 
 ### 2️⃣ Import the Notebook
@@ -33,6 +35,8 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 2. In your **Fabric workspace**, click **+ New Item** → **Import** → **Notebook**
 3. Select the downloaded `Contoso Sales Setup.ipynb` file and upload it
 4. Once imported, the notebook will appear in your workspace — **open it**
+
+![Import Notebook](images/import-notebook.png)
 
 > 💡 **Alternative:** If you prefer, you can create a blank notebook and copy-paste the cell contents from `Contoso Sales Setup.ipynb` manually.
 
