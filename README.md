@@ -46,7 +46,7 @@ A business user simply opens **M365 Copilot**, starts a chat with the data agent
 
 ### Prerequisites
 
-- A **Microsoft Fabric workspace** with capacity (F2+ or trial) — [Create a workspace](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces) · [Start a free trial](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial)
+- A **Microsoft Fabric workspace** with paid **F2+ capacity** — [Create a workspace](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces)
 - **Data Agent** enabled in tenant settings — [Configure tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings)
 - A **Microsoft 365 Copilot** license — [M365 Copilot licensing](https://learn.microsoft.com/en-us/microsoft-365-copilot/microsoft-365-copilot-licensing)
 - **Copilot extensibility** enabled by your M365 admin — [Manage Copilot agents](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps)
@@ -58,7 +58,7 @@ A business user simply opens **M365 Copilot**, starts a chat with the data agent
 |------|-------|------|-------------------|
 | **1** | [📓 Create Lakehouse & Sample Data](docs/01-run-notebook.md) | ~10 min | A Lakehouse with Products and SalesTransactions tables |
 | **2** | [🤖 Create the Data Agent](docs/02-create-data-agent.md) | ~5 min | A Fabric Data Agent (Contoso Sales Analyst) answering NLQ over your data |
-| **3** | [🏪 Publish to M365 Copilot Agent Store](docs/03-publish-to-agent-store.md) | ~5 min | Your agent available to business users in Teams & BizChat |
+| **3** | [🏪 Publish to M365 Copilot Agent Store](docs/03-publish-to-agent-store.md) | ~5 min | Your agent available to business users in M365 Copilot |
 
 ---
 
@@ -141,8 +141,9 @@ Once everything is set up, try these in M365 Copilot:
 
 | Resource | Link |
 |----------|------|
+| **Create a Fabric capacity** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/enterprise/buy-subscription) |
 | **Create a Fabric workspace** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces) |
-| **Start a Fabric free trial** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial) |
+| **Assign a workspace to a capacity** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/fundamentals/license-capacity-assign) |
 | **Create a Lakehouse** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-engineering/create-lakehouse) |
 | **Configure Data Agent tenant settings** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings) |
 | **Create a Fabric Data Agent** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/how-to-create-data-agent) |

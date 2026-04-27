@@ -1,6 +1,6 @@
 # 🏪 Step 3: Publish the Data Agent to the M365 Copilot Agent Store
 
-This guide walks you through publishing your Fabric Data Agent directly to the **Microsoft 365 Copilot Agent Store**, so business users can chat with it from **Teams** or **BizChat** — no Copilot Studio required.
+This guide walks you through publishing your Fabric Data Agent directly to the **Microsoft 365 Copilot Agent Store**, so business users can chat with it from **M365 Copilot** — no Copilot Studio required.
 
 ---
 
@@ -37,9 +37,11 @@ This guide walks you through publishing your Fabric Data Agent directly to the *
 
 ![Publish Data Agent](images/publish-dataagent.png)
 
-1. Open **Microsoft Teams** or **M365 Copilot** (BizChat)
+1. Open **M365 Copilot**
 2. Go to the **Copilot** experience
 3. Your Fabric Data Agent should appear in the **Agent Store**
+
+![Agent in Copilot](images/add-agentincopilot.png)
 
 > 💡 **Tip:** It may take a few seconds for the agent to appear. If it doesn't show up immediately, select the **Expand Navigation** button on the left side of the window to refresh the list of agents.
 
@@ -54,8 +56,6 @@ You can interact with the Data Agent in two ways:
 **Option A — Chat directly:** Open the agent from the Agent Store and start a dedicated chat.
 
 **Option B — @mention:** From the main Copilot chat, type `@` and select the agent from the list. This attaches it to the conversation and you can ask questions right away.
-
-![Agent in Copilot](images/add-agentincopilot.png)
 
 - 🟢 `"What are the top 5 products by total revenue?"`
 - 🟢 `"Show me sales by region"`
@@ -80,7 +80,7 @@ You can interact with the Data Agent in two ways:
 
 You now have a **complete conversational AI agent** that:
 
-- 💬 Business users can **chat with in M365 Copilot** (Teams & BizChat)
+- 💬 Business users can **chat with it in M365 Copilot**
 - 📊 Provides **instant sales insights** from natural language questions
 - 🔗 Connects directly to your **Fabric Lakehouse** data
 - 📈 Supports **visualizations** via the M365 Copilot code interpreter
@@ -110,4 +110,4 @@ You have successfully built the complete Contoso Sales Analytics Agent:
 |-----------|-------------|
 | **Fabric Lakehouse** | Stores the sample sales data |
 | **Fabric Data Agent** | Translates natural language → SQL → results |
-| **M365 Copilot Agent Store** | Makes the agent available to business users in Teams & BizChat |
+| **M365 Copilot Agent Store** | Makes the agent available to business users in M365 Copilot |
