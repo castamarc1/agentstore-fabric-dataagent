@@ -79,7 +79,7 @@ After completing Steps 1 and 2, you have **two options** for the Copilot Studio 
 ```
 agentstore-fabric-dataagent/
 ├── README.md                              ← You are here
-├── setup/
+├── fabric/
 │   └── contoso_sales_setup.ipynb          ← PySpark notebook (creates Lakehouse data)
 ├── docs/
 │   ├── 01-run-notebook.md                 ← Guide: Lakehouse & data setup
@@ -89,8 +89,6 @@ agentstore-fabric-dataagent/
 ├── copilot-studio/
 │   ├── import-guide.md                    ← How to import & configure the solution
 │   └── ContosoDataAgent_1_0_0_13.zip      ← Copilot Studio solution (ready to import)
-└── agent-store/
-    └── catalogue-entry.md                 ← Agent Store metadata & demo script
 ```
 
 ---

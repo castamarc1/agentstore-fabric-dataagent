@@ -51,13 +51,13 @@ You have two options:
 **Option A — Copy-paste cells:**
 
 1. Open the notebook you just created
-2. Open the file `setup/contoso_sales_setup.ipynb` from this repository
+2. Open the file `fabric/contoso_sales_setup.ipynb` from this repository
 3. Copy-paste the cells from the setup notebook into your Fabric notebook
 
 **Option B — Direct import (if supported):**
 
 1. In your Fabric workspace, click **+ New Item** → **Import** → **Notebook**
-2. Upload the file `setup/contoso_sales_setup.ipynb` from this repository
+2. Upload the file `fabric/contoso_sales_setup.ipynb` from this repository
 3. Once imported, open the notebook and attach the `contoso_sales` Lakehouse (see Step 3)
 
 ---
