@@ -45,9 +45,11 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 ### 3️⃣ Attach the Lakehouse to the Notebook
 
 1. In the opened notebook, look at the **left panel** (Explorer)
-2. Click **"Add"** → **"Existing Lakehouse"**
+2. Click **"Add"** → **"From OneLake Catalog"**
 3. Select **`ContosoSales`** from the list and confirm
 4. You should now see the Lakehouse name in the left panel — this means the notebook will write data to it
+
+![Add Lakehouse](images/add-lakehouse.png)
 
 ---
 
@@ -69,6 +71,8 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
    - ✅ **`SalesTransactions`**
 
 > 💡 **Tip:** You can click on each table and preview the data to make sure it looks correct.
+
+![Hydrated Lakehouse](images/hydrated-lakehouse.png)
 
 ---
 
