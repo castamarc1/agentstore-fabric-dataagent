@@ -38,11 +38,11 @@ A business user simply opens **M365 Copilot**, starts a chat with the data agent
 | **Fabric Lakehouse** | Stores the sample data (2 Delta tables) |
 | **PySpark Notebook** | Creates the Lakehouse data in one click — 50 products, 500 transactions |
 | **Fabric Data Agent** | Translates natural language questions into SQL and returns insights |
-| **M365 Copilot Agent Store** | Makes the agent available to business users in Teams & BizChat |
+| **M365 Copilot Agent Store** | Makes the agent available to business users in the flow of work |
 
 ---
 
-## ⚡ Quick Start (~20 minutes)
+## ⚡ Quick Start
 
 ### Prerequisites
 
