@@ -35,9 +35,7 @@ This guide walks you through publishing your Fabric Data Agent directly to the *
 
 5. Click **Publish**
 
----
-
-### 2️⃣ Find the Agent in M365 Copilot
+![Publish Data Agent](images/publish-dataagent.png)
 
 1. Open **Microsoft Teams** or **M365 Copilot** (BizChat)
 2. Go to the **Copilot** experience
@@ -57,7 +55,7 @@ You can interact with the Data Agent in two ways:
 
 **Option B — @mention:** From the main Copilot chat, type `@` and select the agent from the list. This attaches it to the conversation and you can ask questions right away.
 
-Try these sample questions:
+![Agent in Copilot](images/add-agentincopilot.png)
 
 - 🟢 `"What are the top 5 products by total revenue?"`
 - 🟢 `"Show me sales by region"`
