@@ -12,11 +12,11 @@
 
 This repository contains everything you need to build a **conversational AI agent** that answers business questions about sales data — no coding required.
 
-A business user simply opens **M365 Copilot** (in Teams or BizChat) and asks:
+A business user simply opens **M365 Copilot**, starts a chat with the data agent and asks:
 
 > *"What were our top 5 products by revenue last quarter?"*
 
-...and gets an instant, data-driven answer.
+...and gets an instant, data-driven answer grounded in curated enterprise data from Fabric.
 
 ---
 
@@ -25,12 +25,12 @@ A business user simply opens **M365 Copilot** (in Teams or BizChat) and asks:
 ```
 ┌──────────────────────┐     ┌──────────────────────┐
 │  M365 Copilot        │────▶│  Fabric Data         │────▶  Fabric Lakehouse
-│  (Teams / BizChat)   │◀────│  Agent               │◀────  (Products + Sales)
+│  App                 │◀────│  Agent               │◀────  (Products + Sales)
 └──────────────────────┘     └──────────────────────┘
-                                                          ▲
-                                                          │
-                                                     PySpark Notebook
-                                                     (one-click setup)
+                                                                    ▲
+                                                                    │
+                                                               PySpark Notebook
+                                                               (one-click setup)
 ```
 
 | Component | What It Does |
