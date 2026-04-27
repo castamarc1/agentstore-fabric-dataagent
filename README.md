@@ -52,7 +52,7 @@ A business user simply opens **Microsoft Teams** and asks:
 - **Member** or **Admin** role in the Fabric workspace
 - Access to **Copilot Studio** ([copilotstudio.microsoft.com](https://copilotstudio.microsoft.com))
 
-### Steps 1–2: Set up the data layer (both paths)
+### Steps 1–2: Set up the data layer
 
 These two steps are required regardless of which path you choose for the Copilot Studio agent:
 
