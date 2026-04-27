@@ -93,6 +93,11 @@ No SQL knowledge required — just ask questions in plain English!
 
 ---
 
-## ➡️ Next Step
+## ➡️ Next Step: Create the Copilot Studio Agent
 
-Continue to **[Step 3: Create the Copilot Studio Agent →](03-create-copilot-studio.md)**
+You have **two options** — choose the one that fits your needs:
+
+| Path | Guide | Time | Best For |
+|------|-------|------|----------|
+| **🅰️ Import solution** (recommended) | [📦 Import Guide](../copilot-studio/import-guide.md) | ~5 min | Quick setup — import the `.zip`, set 2 environment variables, done |
+| **🅱️ Build manually** | [💬 Manual Guide](03-create-copilot-studio.md) | ~10 min | Learning the process or customizing the agent from scratch |

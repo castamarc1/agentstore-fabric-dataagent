@@ -1,6 +1,8 @@
-# 💬 Step 3: Create the Copilot Studio Agent
+# 💬 Step 3 (Path B): Create the Copilot Studio Agent Manually
 
-This guide walks you through creating a Copilot Studio agent that connects to your Fabric Data Agent and is accessible via Microsoft Teams.
+This guide walks you through creating a Copilot Studio agent **from scratch** and connecting it to your Fabric Data Agent.
+
+> 💡 **Looking for the faster path?** You can skip this manual guide and import the pre-built solution instead — see the **[📦 Import Guide (Path A)](../copilot-studio/import-guide.md)**.
 
 ---
 

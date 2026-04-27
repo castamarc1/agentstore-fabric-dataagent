@@ -42,7 +42,7 @@ A business user simply opens **Microsoft Teams** and asks:
 
 ---
 
-## ⚡ Quick Start (3 steps, ~30 minutes)
+## ⚡ Quick Start (~30 minutes)
 
 ### Prerequisites
 
@@ -52,15 +52,25 @@ A business user simply opens **Microsoft Teams** and asks:
 - **Member** or **Admin** role in the Fabric workspace
 - Access to **Copilot Studio** ([copilotstudio.microsoft.com](https://copilotstudio.microsoft.com))
 
-### Step-by-step
+### Steps 1–2: Set up the data layer (both paths)
+
+These two steps are required regardless of which path you choose for the Copilot Studio agent:
 
 | Step | Guide | Time | What You'll Build |
 |------|-------|------|-------------------|
 | **1** | [📓 Create Lakehouse & Sample Data](docs/01-run-notebook.md) | ~10 min | A Lakehouse with Products and SalesTransactions tables |
 | **2** | [🤖 Create the Data Agent](docs/02-create-data-agent.md) | ~10 min | A Fabric Data Agent answering NLQ over your data |
-| **3** | [💬 Create the Copilot Studio Agent](docs/03-create-copilot-studio.md) | ~10 min | A conversational agent in Teams connected to the Data Agent |
 
-> **💡 Shortcut:** A ready-to-import Copilot Studio solution is available in [`copilot-studio/`](copilot-studio/). Import the `.zip`, set two environment variables (Workspace ID + Data Agent ID), and you're done. See the [import guide](copilot-studio/import-guide.md).
+### Step 3: Create the Copilot Studio Agent — choose your path
+
+After completing Steps 1 and 2, you have **two options** for the Copilot Studio agent:
+
+| Path | Guide | Time | Best For |
+|------|-------|------|----------|
+| **🅰️ Import solution** (recommended) | [📦 Import Guide](copilot-studio/import-guide.md) | ~5 min | Quick setup — import the `.zip`, set 2 environment variables, done |
+| **🅱️ Build manually** | [💬 Manual Guide](docs/03-create-copilot-studio.md) | ~10 min | Learning the process or customizing the agent from scratch |
+
+> **💡 We recommend Path A** if you want to get up and running quickly. Choose Path B if you want to understand how the Copilot Studio agent is built or need to customize it.
 
 ---
 

@@ -1,6 +1,8 @@
-# 📦 Importing the Copilot Studio Solution
+# 📦 Step 3 (Path A): Import the Copilot Studio Solution
 
 This guide explains how to import the pre-built Copilot Studio solution and configure it to connect to your Fabric Data Agent.
+
+> 💡 **Prefer to build it yourself?** See the **[💬 Manual Guide (Path B)](../docs/03-create-copilot-studio.md)** instead.
 
 ---
 
