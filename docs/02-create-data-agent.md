@@ -8,7 +8,7 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 
 - Completed **[Step 1: Create the Lakehouse & Sample Data](01-run-notebook.md)**
 - Same **Fabric workspace** where you created the Lakehouse
-- **Fabric Data Agent (preview)** must be enabled in your tenant
+- **Fabric Data Agent** must be enabled in your tenant
   - Your admin must enable **Copilot and Azure OpenAI features** in Tenant Settings → [Configure Data Agent tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings)
 - Paid **F2+ capacity** (or P1+ with Fabric enabled) — the Data Agent is not available on trial capacity
 
@@ -25,11 +25,9 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 3. Name it **`Contoso Sales Analyst`**
 4. Click **Create**
 
----
+![Create Data Agent](images/create-dataagent.png)
 
-### 2️⃣ Add Data Source
-
-1. In the Data Agent configuration, click **"Add data source"**
+1. In the Data Agent configuration, click **"Add Data"** → **"Data source"**
 2. Select your **`ContosoSales`** Lakehouse
 3. Select **both tables**:
    - ✅ **`Products`**
@@ -56,6 +54,8 @@ When answering questions:
 ```
 
 > 💡 **Tip:** These instructions help the Data Agent understand your data model and respond in a business-friendly way.
+
+![Configured Data Agent](images/configured-dataagent.png)
 
 ---
 
