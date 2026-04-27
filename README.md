@@ -46,7 +46,8 @@ A business user simply opens **Microsoft Teams** and asks:
 
 ### Prerequisites
 
-- A **Microsoft Fabric workspace** with capacity (F2+ or trial)
+- A **Microsoft Fabric workspace** with capacity (F2+ or trial) — [Create a workspace](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces) · [Start a free trial](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial)
+- **Data Agent (preview)** enabled in tenant settings — [Configure tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings)
 - A **Microsoft 365 Copilot** license
 - **Member** or **Admin** role in the Fabric workspace
 - Access to **Copilot Studio** ([copilotstudio.microsoft.com](https://copilotstudio.microsoft.com))
@@ -151,6 +152,21 @@ See [`agent-store/catalogue-entry.md`](agent-store/catalogue-entry.md) for the c
 | **Industry** | Cross-industry (Retail / Sales) |
 | **Department** | Sales & Analytics |
 | **Time to Replicate** | ~30 minutes |
+
+---
+
+## 📚 Useful Links
+
+| Resource | Link |
+|----------|------|
+| **Create a Fabric workspace** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces) |
+| **Start a Fabric free trial** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial) |
+| **Create a Lakehouse** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-engineering/create-lakehouse) |
+| **Configure Data Agent tenant settings** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings) |
+| **Create a Fabric Data Agent** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/how-to-create-data-agent) |
+| **Data Agent end-to-end tutorial** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-end-to-end-tutorial) |
+| **Connect Data Agent to Copilot Studio** | [learn.microsoft.com](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-agent-fabric-data-agent) |
+| **Consume Data Agent in Copilot Studio** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-microsoft-copilot-studio) |
 
 ---
 

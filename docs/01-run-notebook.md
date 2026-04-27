@@ -7,7 +7,11 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 ## ✅ Prerequisites
 
 - A **Microsoft Fabric workspace** with capacity (F2+ or trial)
+  - Don't have one? → [Create a workspace](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces)
+  - Need a trial? → [Start a Fabric trial](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial)
 - **Member** or **Admin** role in the workspace
+
+> 📖 **New to Fabric?** See the [Lakehouse tutorial](https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-build-lakehouse) on Microsoft Learn for an end-to-end walkthrough.
 
 ---
 

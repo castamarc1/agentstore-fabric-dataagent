@@ -8,6 +8,11 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 
 - Completed **[Step 1: Create the Lakehouse & Sample Data](01-run-notebook.md)**
 - Same **Fabric workspace** where you created the Lakehouse
+- **Fabric Data Agent (preview)** must be enabled in your tenant
+  - Your admin must enable **Copilot and Azure OpenAI features** in Tenant Settings → [Configure Data Agent tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings)
+- Paid **F2+ capacity** (or P1+ with Fabric enabled) — the Data Agent is not available on trial capacity
+
+> 📖 **Learn more:** [Create a Fabric Data Agent](https://learn.microsoft.com/en-us/fabric/data-science/how-to-create-data-agent) · [Data Agent end-to-end tutorial](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-end-to-end-tutorial)
 
 ---
 

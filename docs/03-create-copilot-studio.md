@@ -9,6 +9,9 @@ This guide walks you through creating a Copilot Studio agent that connects to yo
 - Completed **[Step 2: Create the Fabric Data Agent](02-create-data-agent.md)** (published)
 - **Microsoft 365 Copilot** license
 - Access to **Copilot Studio** — [https://copilotstudio.microsoft.com](https://copilotstudio.microsoft.com)
+- Both Fabric and Copilot Studio must be in the **same tenant**
+
+> 📖 **Learn more:** [Connect to a Fabric Data Agent in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-agent-fabric-data-agent) · [Consume a Data Agent in Copilot Studio](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-microsoft-copilot-studio)
 
 ---
 
