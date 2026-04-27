@@ -22,7 +22,7 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 
 1. In your **Fabric workspace**, click **+ New Item**
 2. Search for **"Data Agent"** (found under the **AI** section)
-3. Name it **`contoso_sales_agent`**
+3. Name it **`Contoso Sales Analyst`**
 4. Click **Create**
 
 ---
@@ -30,10 +30,10 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 ### 2️⃣ Add Data Source
 
 1. In the Data Agent configuration, click **"Add data source"**
-2. Select your **`contoso_sales`** Lakehouse
+2. Select your **`Contoso Sales`** Lakehouse
 3. Select **both tables**:
-   - ✅ **`products`**
-   - ✅ **`sales_transactions`**
+   - ✅ **`Products`**
+   - ✅ **`SalesTransactions`**
 
 ---
 
@@ -42,10 +42,10 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 1. In the **"Instructions"** section of the Data Agent, paste the following meta-prompt:
 
 ```text
-You are a sales analytics assistant for Contoso. You help business users understand sales performance by querying the products and sales_transactions tables.
+You are a sales analytics assistant for Contoso. You help business users understand sales performance by querying the Products and SalesTransactions tables.
 
 Key relationships:
-- sales_transactions.ProductID joins to products.ProductID
+- SalesTransactions.ProductID joins to Products.ProductID
 - TotalAmount = Quantity × UnitPrice
 
 When answering questions:
@@ -72,12 +72,11 @@ Use the **built-in chat** pane to test the Data Agent with these sample question
 
 ---
 
-### 5️⃣ Publish the Agent
+### 5️⃣ Verify the Agent Works
 
-1. Click **"Publish"** to make the Data Agent available
-2. This makes it connectable from **Copilot Studio** in the next step
+Make sure the agent returns accurate results before publishing. Try a few different question types (aggregations, filters, comparisons) to confirm it handles your data well.
 
-> ⚠️ **Important:** The agent must be published before it can be used as a connector in Copilot Studio.
+> 💡 **Tip:** Fix any issues now — once published to the M365 Copilot Agent Store, users will interact with the agent directly.
 
 ---
 
@@ -93,11 +92,6 @@ No SQL knowledge required — just ask questions in plain English!
 
 ---
 
-## ➡️ Next Step: Create the Copilot Studio Agent
+## ➡️ Next Step
 
-You have **two options** — choose the one that fits your needs:
-
-| Path | Guide | Time | Best For |
-|------|-------|------|----------|
-| **🅰️ Import solution** (recommended) | [📦 Import Guide](03a-import-copilot-studio.md) | ~5 min | Quick setup — import the `.zip`, set 2 environment variables, done |
-| **🅱️ Build manually** | [💬 Manual Guide](03-create-copilot-studio.md) | ~10 min | Learning the process or customizing the agent from scratch |
+Continue to **[Step 3: Publish to the M365 Copilot Agent Store →](03-publish-to-agent-store.md)**
