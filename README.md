@@ -67,7 +67,7 @@ After completing Steps 1 and 2, you have **two options** for the Copilot Studio 
 
 | Path | Guide | Time | Best For |
 |------|-------|------|----------|
-| **🅰️ Import solution** (recommended) | [📦 Import Guide](copilot-studio/import-guide.md) | ~5 min | Quick setup — import the `.zip`, set 2 environment variables, done |
+| **🅰️ Import solution** (recommended) | [📦 Import Guide](docs/03a-import-copilot-studio.md) | ~5 min | Quick setup — import the `.zip`, set 2 environment variables, done |
 | **🅱️ Build manually** | [💬 Manual Guide](docs/03-create-copilot-studio.md) | ~10 min | Learning the process or customizing the agent from scratch |
 
 > **💡 We recommend Path A** if you want to get up and running quickly. Choose Path B if you want to understand how the Copilot Studio agent is built or need to customize it.
@@ -84,10 +84,10 @@ agentstore-fabric-dataagent/
 ├── docs/
 │   ├── 01-run-notebook.md                 ← Guide: Lakehouse & data setup
 │   ├── 02-create-data-agent.md            ← Guide: Fabric Data Agent
-│   ├── 03-create-copilot-studio.md        ← Guide: Copilot Studio agent
+│   ├── 03-create-copilot-studio.md        ← Guide: Copilot Studio agent (manual, Path B)
+│   ├── 03a-import-copilot-studio.md       ← Guide: Copilot Studio agent (import, Path A)
 │   └── images/                            ← Screenshots (add your own)
 ├── copilot-studio/
-│   ├── import-guide.md                    ← How to import & configure the solution
 │   └── ContosoDataAgent_1_0_0_13.zip      ← Copilot Studio solution (ready to import)
 ```
 

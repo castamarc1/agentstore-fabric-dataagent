@@ -2,7 +2,7 @@
 
 This guide walks you through creating a Copilot Studio agent **from scratch** and connecting it to your Fabric Data Agent.
 
-> 💡 **Looking for the faster path?** You can skip this manual guide and import the pre-built solution instead — see the **[📦 Import Guide (Path A)](../copilot-studio/import-guide.md)**.
+> 💡 **Looking for the faster path?** You can skip this manual guide and import the pre-built solution instead — see the **[📦 Import Guide (Path A)](03a-import-copilot-studio.md)**.
 
 ---
 
@@ -112,7 +112,7 @@ You now have a **complete conversational AI agent** that:
 
 ## 🏁 You're Done!
 
-> 💡 **Prefer a faster path?** Instead of building the Copilot Studio agent manually, you can import the pre-built solution `.zip` and just configure two environment variables. See the **[Import Guide](../copilot-studio/import-guide.md)**.
+> 💡 **Prefer a faster path?** Instead of building the Copilot Studio agent manually, you can import the pre-built solution `.zip` and just configure two environment variables. See the **[Import Guide](03a-import-copilot-studio.md)**.
 
 You have successfully built the complete Contoso Sales Analytics Agent:
 
@@ -122,4 +122,4 @@ You have successfully built the complete Contoso Sales Analytics Agent:
 | **Fabric Data Agent** | Translates natural language → SQL → results |
 | **Copilot Studio Agent** | Conversational UI in Teams |
 
-> 📦 **Optional:** If you'd like to export/import the Copilot Studio solution, see the **[Import Guide](../copilot-studio/import-guide.md)**.
+> 📦 **Optional:** If you'd like to export/import the Copilot Studio solution, see the **[Import Guide](03a-import-copilot-studio.md)**.

@@ -2,7 +2,7 @@
 
 This guide explains how to import the pre-built Copilot Studio solution and configure it to connect to your Fabric Data Agent.
 
-> 💡 **Prefer to build it yourself?** See the **[💬 Manual Guide (Path B)](../docs/03-create-copilot-studio.md)** instead.
+> 💡 **Prefer to build it yourself?** See the **[💬 Manual Guide (Path B)](03-create-copilot-studio.md)** instead.
 
 ---
 
@@ -22,8 +22,8 @@ The solution package (`ContosoDataAgent_1_0_0_13.zip`) includes:
 
 Before importing, make sure you have:
 
-1. ✅ **[Step 1: Create the Lakehouse & Sample Data](../docs/01-run-notebook.md)**
-2. ✅ **[Step 2: Create the Fabric Data Agent](../docs/02-create-data-agent.md)** (must be **published**)
+1. ✅ **[Step 1: Create the Lakehouse & Sample Data](01-run-notebook.md)**
+2. ✅ **[Step 2: Create the Fabric Data Agent](02-create-data-agent.md)** (must be **published**)
 3. ✅ A **Microsoft 365 Copilot** license **or** a **Copilot Studio metered (PAYG)** plan — [Licensing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) · [Set up PAYG](https://learn.microsoft.com/en-us/microsoft-365/copilot/pay-as-you-go/setup)
 
 You will need the **Data Agent ID** and **Workspace ID** — instructions to find them are below.
@@ -65,7 +65,7 @@ You'll need these values during import. Here's how to find them:
 2. Select your **environment** (top-right picker)
 3. In the left navigation, go to **Solutions**
 4. Click **Import solution**
-5. Click **Browse** and select `ContosoDataAgent_1_0_0_13.zip` from this folder
+5. Click **Browse** and select `ContosoDataAgent_1_0_0_13.zip` from the `copilot-studio/` folder of this repository
 6. Click **Next** and follow the on-screen prompts
 
 ---
@@ -116,7 +116,7 @@ During (or after) import, you'll be prompted to set two environment variables:
 | Approach | Best For |
 |----------|----------|
 | **Import solution** (.zip) | Quick setup — just configure 2 environment variables |
-| **[Manual guide](../docs/03-create-copilot-studio.md)** | Learning the process, customizing the agent from scratch |
+| **[Manual guide](03-create-copilot-studio.md)** | Learning the process, customizing the agent from scratch |
 
 ---
 
