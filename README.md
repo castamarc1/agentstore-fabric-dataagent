@@ -48,7 +48,7 @@ A business user simply opens **Microsoft Teams** and asks:
 
 - A **Microsoft Fabric workspace** with capacity (F2+ or trial) — [Create a workspace](https://learn.microsoft.com/en-us/fabric/fundamentals/create-workspaces) · [Start a free trial](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial)
 - **Data Agent (preview)** enabled in tenant settings — [Configure tenant settings](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings)
-- A **Microsoft 365 Copilot** license
+- A **Microsoft 365 Copilot** license **or** a **Copilot Studio metered (PAYG)** plan linked to an Azure subscription — [Copilot Studio licensing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) · [Set up PAYG](https://learn.microsoft.com/en-us/microsoft-365/copilot/pay-as-you-go/setup)
 - **Member** or **Admin** role in the Fabric workspace
 - Access to **Copilot Studio** ([copilotstudio.microsoft.com](https://copilotstudio.microsoft.com))
 
@@ -173,6 +173,8 @@ See [`agent-store/catalogue-entry.md`](agent-store/catalogue-entry.md) for the c
 | **Configure Data Agent tenant settings** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-tenant-settings) |
 | **Create a Fabric Data Agent** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/how-to-create-data-agent) |
 | **Data Agent end-to-end tutorial** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-end-to-end-tutorial) |
+| **Copilot Studio licensing** | [learn.microsoft.com](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) |
+| **Set up Copilot Studio PAYG** | [learn.microsoft.com](https://learn.microsoft.com/en-us/microsoft-365/copilot/pay-as-you-go/setup) |
 | **Connect Data Agent to Copilot Studio** | [learn.microsoft.com](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-agent-fabric-data-agent) |
 | **Consume Data Agent in Copilot Studio** | [learn.microsoft.com](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-microsoft-copilot-studio) |
 

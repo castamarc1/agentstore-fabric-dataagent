@@ -20,10 +20,11 @@ The solution package (`ContosoDataAgent_1_0_0_13.zip`) includes:
 
 ## ✅ Prerequisites
 
-Before importing, make sure you have completed:
+Before importing, make sure you have:
 
 1. ✅ **[Step 1: Create the Lakehouse & Sample Data](../docs/01-run-notebook.md)**
 2. ✅ **[Step 2: Create the Fabric Data Agent](../docs/02-create-data-agent.md)** (must be **published**)
+3. ✅ A **Microsoft 365 Copilot** license **or** a **Copilot Studio metered (PAYG)** plan — [Licensing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) · [Set up PAYG](https://learn.microsoft.com/en-us/microsoft-365/copilot/pay-as-you-go/setup)
 
 You will need the **Data Agent ID** and **Workspace ID** — instructions to find them are below.
 

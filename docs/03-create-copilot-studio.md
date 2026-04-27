@@ -9,7 +9,7 @@ This guide walks you through creating a Copilot Studio agent **from scratch** an
 ## ✅ Prerequisites
 
 - Completed **[Step 2: Create the Fabric Data Agent](02-create-data-agent.md)** (published)
-- **Microsoft 365 Copilot** license
+- **Microsoft 365 Copilot** license **or** a **Copilot Studio metered (PAYG)** plan linked to an Azure subscription — [Copilot Studio licensing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) · [Set up PAYG](https://learn.microsoft.com/en-us/microsoft-365/copilot/pay-as-you-go/setup)
 - Access to **Copilot Studio** — [https://copilotstudio.microsoft.com](https://copilotstudio.microsoft.com)
 - Both Fabric and Copilot Studio must be in the **same tenant**
 
