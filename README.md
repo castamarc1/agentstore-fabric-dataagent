@@ -69,7 +69,7 @@ A business user simply opens **Microsoft Teams** and asks:
 agentstore-fabric-dataagent/
 ├── README.md                              ← You are here
 ├── setup/
-│   └── contoso-sales-setup.ipynb          ← PySpark notebook (creates Lakehouse data)
+│   └── contoso_sales_setup.ipynb          ← PySpark notebook (creates Lakehouse data)
 ├── docs/
 │   ├── 01-run-notebook.md                 ← Guide: Lakehouse & data setup
 │   ├── 02-create-data-agent.md            ← Guide: Fabric Data Agent

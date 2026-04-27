@@ -18,7 +18,7 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 1. Go to your **Fabric workspace**
 2. Click **+ New Item**
 3. Select **Lakehouse**
-4. Name it **`contoso-sales`**
+4. Name it **`contoso_sales`**
 5. Click **Create**
 
 ---
@@ -35,7 +35,7 @@ This guide walks you through creating a Fabric Lakehouse and populating it with 
 
 1. In the notebook, look at the **left panel**
 2. Click **"Add Lakehouse"**
-3. Select **`contoso-sales`** from the list
+3. Select **`contoso_sales`** from the list
 4. The Lakehouse is now connected and ready to use in your notebook code
 
 ---
@@ -47,14 +47,14 @@ You have two options:
 **Option A — Copy-paste cells:**
 
 1. Open the notebook you just created
-2. Open the file `setup/contoso-sales-setup.ipynb` from this repository
+2. Open the file `setup/contoso_sales_setup.ipynb` from this repository
 3. Copy-paste the cells from the setup notebook into your Fabric notebook
 
 **Option B — Direct import (if supported):**
 
 1. In your Fabric workspace, click **+ New Item** → **Import** → **Notebook**
-2. Upload the file `setup/contoso-sales-setup.ipynb` from this repository
-3. Once imported, open the notebook and attach the `contoso-sales` Lakehouse (see Step 3)
+2. Upload the file `setup/contoso_sales_setup.ipynb` from this repository
+3. Once imported, open the notebook and attach the `contoso_sales` Lakehouse (see Step 3)
 
 ---
 
@@ -69,7 +69,7 @@ You have two options:
 ### 6️⃣ Verify
 
 1. Go back to your **Fabric workspace**
-2. Open the **`contoso-sales`** Lakehouse
+2. Open the **`contoso_sales`** Lakehouse
 3. Click on the **SQL analytics endpoint**
 4. Confirm you see these two tables:
    - ✅ **`products`**

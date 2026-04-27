@@ -59,7 +59,7 @@ Example topics you can help with:
 2. Click **"Add an agent"**
 3. Select **"Microsoft Fabric"**
 4. **Authenticate** with your Fabric credentials
-5. Select **`contoso-sales-agent`** from the list
+5. Select **`contoso_sales_agent`** from the list
 6. Click **Confirm** to complete the connection
 
 > ⚠️ **Important:** Make sure your Fabric Data Agent is **published** (Step 2, Step 5) before attempting this connection.

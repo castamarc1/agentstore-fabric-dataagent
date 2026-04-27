@@ -17,7 +17,7 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 
 1. In your **Fabric workspace**, click **+ New Item**
 2. Search for **"Data Agent"** (found under the **AI** section)
-3. Name it **`contoso-sales-agent`**
+3. Name it **`contoso_sales_agent`**
 4. Click **Create**
 
 ---
@@ -25,7 +25,7 @@ This guide walks you through creating a Fabric Data Agent that can answer natura
 ### 2️⃣ Add Data Source
 
 1. In the Data Agent configuration, click **"Add data source"**
-2. Select your **`contoso-sales`** Lakehouse
+2. Select your **`contoso_sales`** Lakehouse
 3. Select **both tables**:
    - ✅ **`products`**
    - ✅ **`sales_transactions`**

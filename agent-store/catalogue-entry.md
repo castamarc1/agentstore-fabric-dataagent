@@ -22,9 +22,9 @@ Use this narrative to walk through the solution in a live demo or customer conve
 
 ### 1️⃣ Show the Lakehouse (~1 min)
 
-> *"Let's start with the data layer. Here's our Fabric Lakehouse — `contoso-sales` — with two tables: **products** and **sales_transactions**. This was populated by running a single notebook with sample data — 50 products and 500 transactions. No data engineering required."*
+> *"Let's start with the data layer. Here's our Fabric Lakehouse — `contoso_sales` — with two tables: **products** and **sales_transactions**. This was populated by running a single notebook with sample data — 50 products and 500 transactions. No data engineering required."*
 
-- Open the **`contoso-sales`** Lakehouse in the Fabric workspace
+- Open the **`contoso_sales`** Lakehouse in the Fabric workspace
 - Click into the **SQL analytics endpoint**
 - Show both tables and preview a few rows
 
@@ -34,7 +34,7 @@ Use this narrative to walk through the solution in a live demo or customer conve
 
 > *"Now here's where it gets interesting. We created a Fabric Data Agent on top of this Lakehouse. It understands the data model and can answer questions in plain English."*
 
-- Open the **`contoso-sales-agent`** Data Agent
+- Open the **`contoso_sales_agent`** Data Agent
 - In the chat pane, type: **"What are the top 5 products by total revenue?"**
 - Show the results and highlight that **SQL was generated automatically**
 - Ask a follow-up: **"Now break that down by region"**
